@@ -1,0 +1,7 @@
+<context>
+    <models>
+        <model file="src/test/resources/tags.xml" adapter="org.atlas.model.adapter.xml.tag.TagAdapter"/>
+    </models>
+    <primitives file="src/test/resources/primitives.xml"/>
+
+</context>

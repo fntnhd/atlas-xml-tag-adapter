@@ -1,0 +1,14 @@
+<tags>
+    <entity name="Student">
+        <tag name="findUserByUsername" value="select s AppUser s where s.username=:username" type="namedQuery"/>
+        <tag name="findAllUsers" value="select s AppUser s" type="namedQuery"/>
+        <property name="number">
+            <tag name="column" value="C_NUMBER"/>
+        </property>
+    </entity>
+    <enumeration name="StudentType">
+        <literal name="PartTime">
+            <tag name="label" value="Part Time"/>
+        </literal>
+    </enumeration>
+</tags>
